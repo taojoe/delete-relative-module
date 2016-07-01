@@ -1,0 +1,23 @@
+{
+  "name": "delete-relative-module",
+  "version": "1.0.0",
+  "description": "delete relative module in package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  { "bin" : { "delete-relative-module" : "./index.js" } },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taojoe/delete-relative-module.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taojoe/delete-relative-module/issues"
+  },
+  "homepage": "https://github.com/taojoe/delete-relative-module#readme",
+  "dependencies": {
+    "del": "^2.2.1"
+  }
+}
